@@ -385,7 +385,7 @@ bool AD5933::setRange(byte range)
             break;
 
         default:
-            // Set output voltage range to 200 mV p-p typical in CTRL_REG1
+            // Set output voltage range to 2.0 V p-p typical in CTRL_REG1
             val |= CTRL_OUTPUT_RANGE_1;
             break;
     }
